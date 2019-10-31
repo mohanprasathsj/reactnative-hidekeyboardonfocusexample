@@ -9,7 +9,7 @@ https://facebook.github.io/react-native/docs/native-modules-ios
 
 Following are the changes that I did for the keyboard hide to work
 
-1. Added the Native Module HideKeyboardModule (android\app\src\main\java\com\hidekeyboard)
+1. Added the Native Module **HideKeyboardModule** (android\app\src\main\java\com\hidekeyboard)
 ```jsx
  @ReactMethod
     public void hideSoftKeyBoard() {
@@ -23,7 +23,7 @@ Following are the changes that I did for the keyboard hide to work
         
     }
 ```
-2. Added the Native Package HideKeyBoardPackage  (android\app\src\main\java\com\hidekeyboard)
+2. Added the Native Package **HideKeyBoardPackage**  (android\app\src\main\java\com\hidekeyboard)
 ```jsx
 @Override
   public List<NativeModule> createNativeModules(
@@ -35,7 +35,7 @@ Following are the changes that I did for the keyboard hide to work
     return modules;
   }
  ```
-3. Added the package in MainApplication (android\app\src\main\java\com\hidekeyboard)
+3. Added the package in **MainApplication** (android\app\src\main\java\com\hidekeyboard)
 ```jsx
   @Override
         protected List<ReactPackage> getPackages() {
@@ -48,13 +48,13 @@ Following are the changes that I did for the keyboard hide to work
         }
  ```
  
- 4. Added the HideKeyBoardExample.js in the root directory
+ 4. Added the **HideKeyBoardExample.js** in the root directory
  ```jsx
  import {NativeModules} from 'react-native';
 module.exports = NativeModules.HideKeyboardExample;
  ```
  
- 5. Called the Module in the App.js
+ 5. Called the Module in the **App.js**
   ```jsx
  import HideKeyboardExample from './HideKeyBoardExample'
  
