@@ -1,7 +1,7 @@
-# reactnative-hidekeyboardonfocusexample
+# React Native Hide Keyboard Example
 Recently faced issue on Hiding Keyboard when an TextEdit is on focus. React Native does not support this feature. So this application is an example of how to achieve it
 
-## Note: We have not fixed the keyboard showing for couple of seconds in this solution. For my requirement showing the keyboard just for a moment is totally ok
+>Note: We have **not fixed the keyboard showing for couple of seconds in this solution**. For my requirement showing the keyboard just for a moment is totally ok
 
 I have followed the following link in adding the Native Modules to the application. 
 
